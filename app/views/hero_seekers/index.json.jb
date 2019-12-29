@@ -1,0 +1,8 @@
+@hero_seekers.map do |hero_seeker|
+  {
+    id: hero_seeker.id,
+    hero_id: hero_seeker.hero_id,
+    seeker_id: hero_seeker.seeker_id,
+    url: hero_seeker_url(hero_seeker, format: :json)
+  }
+end

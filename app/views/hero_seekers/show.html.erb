@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Hero:</strong>
+  <%= @hero_seeker.hero_id %>
+</p>
+
+<p>
+  <strong>Seeker:</strong>
+  <%= @hero_seeker.seeker_id %>
+</p>
+
+<%= link_to 'Edit', edit_hero_seeker_path(@hero_seeker) %> |
+<%= link_to 'Back', hero_seekers_path %>

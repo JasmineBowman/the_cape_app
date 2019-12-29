@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @hero.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @hero.last_name %>
+</p>
+
+<p>
+  <strong>Hero handle:</strong>
+  <%= @hero.hero_handle %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @hero.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @hero.city %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @hero.zip %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @hero.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @hero.phone %>
+</p>
+
+<%= link_to 'Edit', edit_hero_path(@hero) %> |
+<%= link_to 'Back', heros_path %>

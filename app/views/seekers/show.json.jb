@@ -1,0 +1,13 @@
+{
+  id: @seeker.id,
+  first_name: @seeker.first_name,
+  last_name: @seeker.last_name,
+  seeker_signal: @seeker.seeker_signal,
+  address: @seeker.address,
+  city: @seeker.city,
+  zip: @seeker.zip,
+  email: @seeker.email,
+  phone: @seeker.phone,
+  created_at: @seeker.created_at,
+  updated_at: @seeker.updated_at
+}

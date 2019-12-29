@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @seeker.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @seeker.last_name %>
+</p>
+
+<p>
+  <strong>Seeker signal:</strong>
+  <%= @seeker.seeker_signal %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @seeker.address %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @seeker.city %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @seeker.zip %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @seeker.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @seeker.phone %>
+</p>
+
+<%= link_to 'Edit', edit_seeker_path(@seeker) %> |
+<%= link_to 'Back', seekers_path %>

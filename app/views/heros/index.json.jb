@@ -1,0 +1,14 @@
+@heros.map do |hero|
+  {
+    id: hero.id,
+    first_name: hero.first_name,
+    last_name: hero.last_name,
+    hero_handle: hero.hero_handle,
+    address: hero.address,
+    city: hero.city,
+    zip: hero.zip,
+    email: hero.email,
+    phone: hero.phone,
+    url: hero_url(hero, format: :json)
+  }
+end

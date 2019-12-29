@@ -1,0 +1,2 @@
+class HeroSeeker < ApplicationRecord
+end

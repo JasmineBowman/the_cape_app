@@ -1,0 +1,7 @@
+{
+  id: @hero_seeker.id,
+  hero_id: @hero_seeker.hero_id,
+  seeker_id: @hero_seeker.seeker_id,
+  created_at: @hero_seeker.created_at,
+  updated_at: @hero_seeker.updated_at
+}
